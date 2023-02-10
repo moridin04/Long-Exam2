@@ -36,15 +36,15 @@ public class LongExam2 {
 		JLabel label3 = new JLabel("Prog. lang. ");
 		label3.setBounds(25, 145, 100, 30);
 		String languages[] = {"c++", "c#", "Java", "Python"};
-        final JComboBox cb = new JComboBox(languages);
-        cb.setBounds(95, 150, 90, 20);
+        	final JComboBox cb = new JComboBox(languages);
+        	cb.setBounds(95, 150, 90, 20);
         
-        // Submit
-        JButton button = new JButton("Submit");
-        button.setBounds(95, 190, 90, 20);
-        button.setOpaque(false);
-        button.setBackground(null);
-        button.setFocusPainted(false);
+       	 	// Submit
+        	JButton button = new JButton("Submit");
+        	button.setBounds(95, 190, 90, 20);
+        	button.setOpaque(false);
+        	button.setBackground(null);
+        	button.setFocusPainted(false);
 
 		file.add(m1);
 		file.add(m2);
