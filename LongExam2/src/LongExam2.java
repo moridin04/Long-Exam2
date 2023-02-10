@@ -17,7 +17,7 @@ public class LongExam2 {
 		m1 = new JMenuItem("Menu 1");
 		m2 = new JMenuItem("Menu 2");
 		e1 = new JMenuItem("Edit 1");
-		
+
 		// Name
 		JLabel label1 = new JLabel("Name: ");
 		label1.setBounds(25, 25, 100, 30);
@@ -31,20 +31,20 @@ public class LongExam2 {
 		JRadioButton r2 = new JRadioButton("Female");
 		r1.setBounds(95, 60, 100, 30);
 		r2.setBounds(95, 85, 100, 30);
-		
+
 		// Programming Language
 		JLabel label3 = new JLabel("Prog. lang. ");
 		label3.setBounds(25, 145, 100, 30);
-		String languages[] = {"c++", "c#", "Java", "Python"};
-        	final JComboBox cb = new JComboBox(languages);
-        	cb.setBounds(95, 150, 90, 20);
-        
-       	 	// Submit
-        	JButton button = new JButton("Submit");
-        	button.setBounds(95, 190, 90, 20);
-        	button.setOpaque(false);
-        	button.setBackground(null);
-        	button.setFocusPainted(false);
+		String languages[] = { "c++", "c#", "Java", "Python" };
+		final JComboBox cb = new JComboBox(languages);
+		cb.setBounds(95, 150, 80, 20);
+
+		// Submit
+		JButton button = new JButton("Submit");
+		button.setBounds(95, 190, 80, 25);
+		button.setOpaque(false);
+		button.setBackground(null);
+		button.setFocusPainted(false);
 
 		file.add(m1);
 		file.add(m2);
@@ -68,7 +68,7 @@ public class LongExam2 {
 		f.add(button);
 
 		f.setJMenuBar(mb);
-		f.setSize(300, 300);
+		f.setSize(280, 300);
 		f.setLayout(null);
 		f.setVisible(true);
 	}
